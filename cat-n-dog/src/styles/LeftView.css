@@ -1,0 +1,64 @@
+.left-view {
+    width: 50%;
+    height: 100vh;
+    background-color: #fde3d9;
+}
+
+.left-view__content {
+    position: absolute;
+    top: 35%;
+    left: 4%;
+    width: 35%;
+    height: 20%;
+}
+
+.left-view__content__heading {
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: left;
+    letter-spacing: 0px;
+    color: #3e3e3e;
+    opacity: 1;
+    font-family: "BananaGrotesk-Medium";
+    font-size: 40px;
+    margin: 0px;
+}
+
+.left-view__content__paragraph {
+    letter-spacing: var(--unnamed-character-spacing--0-11);
+    text-align: left;
+    letter-spacing: -0.11px;
+    color: #6d6d6d;
+    opacity: 1;
+    font-family: BananaGrotesk-Light;
+    font-size: 16px;
+    margin: 0px;
+}
+
+.left-view__store-logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    position: absolute;
+    top: 75%;
+    left: 4%;
+}
+
+.left-view__store-logos__play-store {
+    width: 207px;
+    height: 80px;
+    background: transparent;
+    opacity: 1;
+
+    margin-left: 20px;
+}
+
+.left-view__store-logos__apple-store {
+    width: 160px;
+    height: 53px;
+    background: transparent;
+    opacity: 1;
+
+    margin-right: 20px;
+}

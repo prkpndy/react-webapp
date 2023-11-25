@@ -1,0 +1,52 @@
+.header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+    width: 94%;
+
+    padding: 1% 3%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__website-logo {
+    width: 194px;
+    height: 62px;
+    background: transparent;
+    opacity: 1;
+}
+
+.header__links {
+    width: 320px;
+    height: 20px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.header__links__content {
+    width: 80px;
+}
+
+.header__links__content a {
+    text-decoration: none;
+    font-family: "BananaGrotesk-Semibold";
+    font-size: 14px;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: left;
+    letter-spacing: 0px;
+    color: #f7f7f7;
+    opacity: 1;
+}
+
+.header__links__content button {
+    background: transparent;
+    border: 0px;
+    color: #f7f7f7;
+    opacity: 1;
+    cursor: pointer;
+}

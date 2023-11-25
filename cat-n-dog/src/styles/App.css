@@ -1,0 +1,25 @@
+.app {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 100%;
+    width: 100%;
+}
+
+.app__connect-div {
+    position: absolute;
+    right: 60px;
+    bottom: 40px;
+    /* width: 120px;
+    height: 12px; */
+
+    display: flex;
+    flex-direction: row;
+}
+
+.app__connect-div__icon {
+    width: 20px;
+    margin: 0 10px;
+    background: transparent;
+    opacity: 1;
+}
