@@ -74,6 +74,13 @@
     width: 100%;
 }
 
+.mutation-result {
+    display: flex;
+    flex-direction: row;
+    align-items: centre;
+    padding-left: 5%;
+}
+
 .form-element label {
     text-align: left;
     font-family: Banana Grotesk;
