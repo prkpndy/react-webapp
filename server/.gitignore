@@ -1,0 +1,7 @@
+# IDE
+.vscode
+.idea
+
+node_modules/*
+
+nodemon.json
